@@ -99,22 +99,75 @@ predict the heart disease. Explain."
 Answer: 
 
 Yes. In this data-set, the dependent variable is binary, and the
-independent variables are either binary or continious.
+independent variables are either binary or continious. However for some of the
+columns, this model won't work out.
 
 ## Histograms
 
-![Diagnosis by Age](graphs/01-hist-diagnosis-by-age.png "Diagnosis by Age")
-![Diagnosis by Sex](graphs/02-hist-diagnosis-by-age.png "Diagnosis by Age")
-![Diagnosis by Chest Pain Area](graphs/03-hist-diagnosis-by-chestpaintype.png "Diagnosis by Chest Pain Area")
-![Diagnosis by Blood Pressure](graphs/04-hist-diagnosis-by-bloodpressure.png "Diagnosis by Blood Pressure")
-![Diagnosis by Fasting Blood Sugar Greater than 120](graphs/05-hist-diagnosis-by-fastingbloodsugar.png "Diagnosis by Fasting Blood Sugar Greater than 120")
-![Diagnosis by ECG At Rest](graphs/06-hist-diagnosis-by-ecgatrest.png 'Diagnosis by ECG At Rest')
-![Diagnosis by Max. Heart Rate](graphs/07-hist-diagnosis-by-maxheartrate.png 'Diagnosis by Max. Heart Rate')
-![Diagnosis by Diagnosis by Prescense of Exercise Induced Angina](graphs/08-hist-diagnosis-by-hasexerciseinducedangina.png 'Diagnosis by Prescense of Exercise Induced Angina')
-![Diagnosis by ST Depression](graphs/09-hist-diagnosis-by-stdepression.png 'Diagnosis by ST Depression')
-![Diagnosis by ST Slope](graphs/10-hist-diagnosis-by-stslope.png 'Diagnosis by ST Slope')
-![Diagnosis by Major Vessel Count in Flouroscopy](graphs/11-hist-diagnosis-by-vesselsinflouroscopy.png 'Diagnosis by Major Vessel Count in Flouroscopy')
-![Diagnosis by Thal](graphs/12-hist-diagnosis-by-thal.png 'Diagnosis by Thal')
+![Diagnosis by Age](graphs/hist-diagnosis-by-age.png "Diagnosis by Age")
+![Diagnosis by Sex](graphs/hist-diagnosis-by-sex.png "Diagnosis by Sex")
+![Diagnosis by Chest Pain Area](graphs/hist-diagnosis-by-chestpaintype.png "Diagnosis by Chest Pain Area")
+![Diagnosis by Blood Pressure](graphs/hist-diagnosis-by-bloodpressure.png "Diagnosis by Blood Pressure")
+![Diagnosis by Serum Cholesterol](graphs/hist-diagnosis-by-serumcholesterol.png "Diagnosis by Serum Cholesterol")
+![Diagnosis by Fasting Blood Sugar Greater than 120](graphs/hist-diagnosis-by-fastingbloodsugar.png "Diagnosis by Fasting Blood Sugar Greater than 120")
+![Diagnosis by ECG At Rest](graphs/hist-diagnosis-by-ecgatrest.png 'Diagnosis by ECG At Rest')
+![Diagnosis by Max. Heart Rate](graphs/hist-diagnosis-by-maxheartrate.png 'Diagnosis by Max. Heart Rate')
+![Diagnosis by Diagnosis by Prescense of Exercise Induced Angina](graphs/hist-diagnosis-by-angina.png'Diagnosis by Prescense of Exercise Induced Angina')
+![Diagnosis by ST Depression](graphs/hist-diagnosis-by-stdepression.png 'Diagnosis by ST Depression')
+![Diagnosis by ST Slope](graphs/hist-diagnosis-by-stslope.png 'Diagnosis by ST Slope')
+![Diagnosis by Major Vessel Count in Flouroscopy](graphs/hist-diagnosis-by-vesselsinflouroscopy.png 'Diagnosis by Major Vessel Count in Flouroscopy')
+![Diagnosis by Thal](graphs/hist-diagnosis-by-thal.png 'Diagnosis by Thal')
+
+## Scatterplots
+
+![Diagnosis by Age](graphs/scatter-diagnosis-by-age.png "Diagnosis by Age")
+![Diagnosis by Sex](graphs/scatter-diagnosis-by-sex.png "Diagnosis by Sex")
+![Diagnosis by Chest Pain Area](graphs/scatter-diagnosis-by-chestpaintype.png "Diagnosis by Chest Pain Area")
+![Diagnosis by Blood Pressure](graphs/scatter-diagnosis-by-bloodpressure.png "Diagnosis by Blood Pressure")
+![Diagnosis by Serum Cholesterol](graphs/scatter-diagnosis-by-serumcholesterol.png "Diagnosis by Serum Cholesterol")
+![Diagnosis by Fasting Blood Sugar Greater than 120](graphs/scatter-diagnosis-by-fastingbloodsugar.png "Diagnosis by Fasting Blood Sugar Greater than 120")
+![Diagnosis by ECG At Rest](graphs/scatter-diagnosis-by-ecgatrest.png 'Diagnosis by ECG At Rest')
+![Diagnosis by Max. Heart Rate](graphs/scatter-diagnosis-by-maxheartrate.png 'Diagnosis by Max. Heart Rate')
+![Diagnosis by Diagnosis by Prescense of Exercise Induced Angina](graphs/scatter-diagnosis-by-angina.png'Diagnosis by Prescense of Exercise Induced Angina')
+![Diagnosis by ST Depression](graphs/scatter-diagnosis-by-stdepression.png 'Diagnosis by ST Depression')
+![Diagnosis by ST Slope](graphs/scatter-diagnosis-by-stslope.png 'Diagnosis by ST Slope')
+![Diagnosis by Major Vessel Count in Flouroscopy](graphs/scatter-diagnosis-by-flouroscopy.png 'Diagnosis by Major Vessel Count in Flouroscopy')
+![Diagnosis by Thal](graphs/scatter-diagnosis-by-thal.png 'Diagnosis by Thal')
+
+## Trends
+
+Trends according to histogram:
+
+  - Sex: males have a higher incidence of heart-disease.
+  - Age: those within the 53-65 range have a higher incidence of heart-disease
+    with those in the 60 range having considerably higher incidence to those
+    that don't.
+  - ChestPainType: those with asymptomatic anginas have a higher incidence of
+    heart-disease.
+  - BloodPressure: little-to-no difference between those who have and don't have
+    heart-disease.
+  - SerumCholesterol: doesn't seem to be correlated with heard-disease.
+  - FastingBloodSugarOver120: little-to-no difference between those who have and
+    don't have heart-disease.
+  - ECGAtRest: little-to-no difference between those who have and don't have
+    heart-disease when they have left ventricular hypertrophy and ST abnormality.
+    However, there is a huge disparity with those with normal ECGs, with there
+    being a lower incidence of heart-disease for those with normal ECGs.
+  - MaxHeartRate: those with heart rates within 120 to 140 seem to have a higher
+    incidence of heart-disease in comparison to those.
+  - HasExerciseInducedAngina: doesn't seem to be a positive correlation as the
+    frequency of those with heart-disease that also have angina have very little
+    difference.
+  - STDepression: incidence of heart-disease seems to increase with a higher
+    value in comparison to those that don't have heart-disease.
+  - STSlope: those with flat slopes have a higher incidence of heart-disease, but
+    those with an upslope seem to have a significantly lower incidence of
+    heart-disease. The difference between having/not having for downslopes is
+    little.
+  - FluroscopyMajorVessels: probability of not having heart-disease is inversely
+    proportional to this value.
+  - Thal: values of 3 show lower incidence, 6 has very little difference, and
+    7 has a higher incidence of heart-disease.
 
 ## References
 
