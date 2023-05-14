@@ -103,18 +103,18 @@ independent variables are either binary or continious.
 
 ## Histograms
 
-![Diagnosis by Age](../graphs/01-hist-diagnosis-by-age.png "Diagnosis by Age")
-![Diagnosis by Sex](../graphs/02-hist-diagnosis-by-age.png "Diagnosis by Age")
-![Diagnosis by Chest Pain Area](../graphs/03-hist-diagnosis-by-chestpaintype.png "Diagnosis by Chest Pain Area")
-![Diagnosis by Blood Pressure](../graphs/04-hist-diagnosis-by-bloodpressure.png "Diagnosis by Blood Pressure")
-![Diagnosis by Fasting Blood Sugar Greater than 120](../graphs/05-hist-diagnosis-by-fastingbloodsugar.png "Diagnosis by Fasting Blood Sugar Greater than 120")
-![Diagnosis by ECG At Rest](../graphs/06-hist-diagnosis-by-ecgatrest.png 'Diagnosis by ECG At Rest')
-![Diagnosis by Max. Heart Rate](../graphs/07-hist-diagnosis-by-maxheartrate.png 'Diagnosis by Max. Heart Rate')
-![Diagnosis by Diagnosis by Prescense of Exercise Induced Angina](../graphs/08-hist-diagnosis-by-hasexerciseinducedangina.png 'Diagnosis by Prescense of Exercise Induced Angina')
-![Diagnosis by ST Depression](../graphs/09-hist-diagnosis-by-stdepression.png 'Diagnosis by ST Depression')
-![Diagnosis by ST Slope](../graphs/10-hist-diagnosis-by-stslope.png 'Diagnosis by ST Slope')
-![Diagnosis by Major Vessel Count in Flouroscopy](../graphs/11-hist-diagnosis-by-vesselsinflouroscopy.png 'Diagnosis by Major Vessel Count in Flouroscopy')
-![Diagnosis by Thal](../graphs/12-hist-diagnosis-by-thal.png 'Diagnosis by Thal')
+![Diagnosis by Age](graphs/01-hist-diagnosis-by-age.png "Diagnosis by Age")
+![Diagnosis by Sex](graphs/02-hist-diagnosis-by-age.png "Diagnosis by Age")
+![Diagnosis by Chest Pain Area](graphs/03-hist-diagnosis-by-chestpaintype.png "Diagnosis by Chest Pain Area")
+![Diagnosis by Blood Pressure](graphs/04-hist-diagnosis-by-bloodpressure.png "Diagnosis by Blood Pressure")
+![Diagnosis by Fasting Blood Sugar Greater than 120](graphs/05-hist-diagnosis-by-fastingbloodsugar.png "Diagnosis by Fasting Blood Sugar Greater than 120")
+![Diagnosis by ECG At Rest](graphs/06-hist-diagnosis-by-ecgatrest.png 'Diagnosis by ECG At Rest')
+![Diagnosis by Max. Heart Rate](graphs/07-hist-diagnosis-by-maxheartrate.png 'Diagnosis by Max. Heart Rate')
+![Diagnosis by Diagnosis by Prescense of Exercise Induced Angina](graphs/08-hist-diagnosis-by-hasexerciseinducedangina.png 'Diagnosis by Prescense of Exercise Induced Angina')
+![Diagnosis by ST Depression](graphs/09-hist-diagnosis-by-stdepression.png 'Diagnosis by ST Depression')
+![Diagnosis by ST Slope](graphs/10-hist-diagnosis-by-stslope.png 'Diagnosis by ST Slope')
+![Diagnosis by Major Vessel Count in Flouroscopy](graphs/11-hist-diagnosis-by-vesselsinflouroscopy.png 'Diagnosis by Major Vessel Count in Flouroscopy')
+![Diagnosis by Thal](graphs/12-hist-diagnosis-by-thal.png 'Diagnosis by Thal')
 
 ## References
 
